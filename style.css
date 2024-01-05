@@ -54,4 +54,10 @@ body {
 
 .main-section {
     width: 60%;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+#tagline {
+    margin-bottom: 100px;
 }
