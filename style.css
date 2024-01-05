@@ -12,13 +12,14 @@ body {
 .main-container {
     display: flex;
     Height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
 .image-banner {
     width: 40%;
-    position: absolute;
+    position: relative;
     z-index: 0;
 }
 
@@ -49,4 +50,8 @@ body {
     height: 90px;
     width: 75px;
     
+}
+
+.main-section {
+    width: 60%;
 }
