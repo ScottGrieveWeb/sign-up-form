@@ -85,7 +85,23 @@ fieldset {
     flex-wrap: wrap;
 }
 
+.input-divs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-right: 40px;
+
+}
+
 input {
     border-color: #E5E7EB;
-    
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
