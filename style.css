@@ -4,7 +4,7 @@
 
 body {
     height:100vh;
-
+    background-color: #F9FAFB;
     margin:0;
     padding:0;
 }
@@ -54,10 +54,38 @@ body {
 
 .main-section {
     width: 60%;
+    
+}
+
+#hero-text{
     margin-top: 150px;
     margin-left: 40px;
+    margin-right: 100px;
 }
 
 #tagline {
     margin-bottom: 100px;
+}
+
+form {
+    background-color: #FFFF;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    color: #1F2937;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+fieldset {
+    border: none;
+}
+
+#form-inputs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    border-color: #E5E7EB;
+    
 }
