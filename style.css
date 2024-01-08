@@ -78,6 +78,7 @@ form {
 
 fieldset {
     border: none;
+    min-height: 200px;
 }
 
 #form-inputs {
