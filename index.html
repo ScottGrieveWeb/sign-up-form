@@ -49,14 +49,16 @@
                     </div>
                     <div class="input-divs">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" onkeyup='check();'>
                     </div>
                     <div class="input-divs">
-                        <label for="password_conf">CONFIRM PASSWORD</label>
-                        <input type="password" id="password_conf" name="password_conf">
+                        <label for="password_conf" >CONFIRM PASSWORD</label>
+                        <input type="password" id="password_conf" name="password_conf" onkeyup='check();'>
+                        <span id='message'></span>
                     </div>
                 </fieldset>
-
+                
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
